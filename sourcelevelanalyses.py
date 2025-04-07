@@ -808,9 +808,7 @@ def source_level_surface_mne_temporal_v5(epochs, fmin, fmax, baseline=(0,5), exp
 epochs_temporal = 'load'
 
 # ======================== Mode subtract / baseline =======================
-bands = ['30-36Hz', '36-45Hz']
-fminmax = [(30,36), (36,45)]
-experiment_tminmax = [(15.25, 19.75), (14,20)]
+bands, fminmax, experiment_tminmax = ['30-36Hz', '36-45Hz'], 'load stat res'
 
 all_stcs_dSPM_maxdivision = dict()
 all_stcs_eLORETA_maxdivision = dict()
