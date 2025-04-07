@@ -2,7 +2,7 @@
 ===============================================
 Source-Level Analysis Code Summary
 
-Project: "Electrophysiological Correlates of Lucid Dreaming: Sensor- and Source-Level Signatures"
+Project: "Electrophysiological Correlates of Lucid Dreaming: Sensor and Source-Level Signatures"
 Designed and coded by: Çağatay Demirel
 ===============================================
 
