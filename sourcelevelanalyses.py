@@ -965,9 +965,7 @@ data load & preparation
 '''
 
 # ======================== Mode subtract / baseline =======================
-bands = ['30-36Hz', '36-45Hz']
-fminmax = [(30, 36), (36, 45)]
-experiment_tminmax = [(15.25, 19.75), (14, 20)]
+bands, fminmax, experiment_tminmax = ['30-36Hz', '36-45Hz'], 'load stat res'
 
 # Initialize storage dictionaries
 all_stcs_dSPM_percentnorm_fc = dict()
