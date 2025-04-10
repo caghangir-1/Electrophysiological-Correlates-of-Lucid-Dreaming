@@ -125,7 +125,7 @@ def butter_bandpass_filter(data, lowcut, highcut, fs, order=3, filter_type='iir'
                                                                                                                  avg_reference=True)
     
 3) Warning:
-* The recording data should be long enough (approx >1 hour) especially for ASR step given that the our algorithm also finds clean segments as a training data of Euclidean ASR model.
+* The recording data should be long enough (approx >1 hour) especially for ASR step given that the the algorithm also finds clean segments as a training data of Euclidean ASR model.
 * (Very) short mid-high density recordings e.g. up to 30 minutes might perform better with independent component analysis (ICA) compared to ASR. 
 * SSP requires at least one EOG or ECG channel, and the final processing step will fail if neither is available.   
 * Riemann ASR (rASR) was also tested but introduced an artificial noise profile instead of achieving effective attenuation, leading us to adopt Euclidean ASR instead.
