@@ -11,7 +11,7 @@ For any questions, feel free to reach out: **cagatay.demirel.sci@gmail.com**
 
 ---
 
-### 📄 Citation
+### 📄 A small note of acknowledgment
 
 If you find these methods useful in your own research, please consider citing the associated paper:
 
