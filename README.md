@@ -3,7 +3,7 @@ This repository contains the custom preprocessing pipeline and microsaccade dete
 **"Electrophysiological Correlates of Lucid Dreaming: Sensor and Source-Level Signatures"**  
 Çağatay Demirel, *in press* at *The Journal of Neuroscience*
 
-The custom preprocessing pipeline were developed to handle adaptive artifact suppression across a diverse set of EEG recordings (from 6 EEG channels ++) collected from multiple labs. 
+The custom preprocessing pipeline was developed to enable adaptive artifact suppression across a wide range of EEG recordings—including low-density setups (e.g., 6 channels) and data collected from multiple labs. While designed for EEG, the pipeline is also compatible with MEG datasets, particularly those with long temporal durations, where it may even outperform mid-to-high-density EEG in terms of artifact cleaning.
 
 Besides, micro-saccade detection algorithm were also developed to help determination of potential micro-saccades around eye movements mostly occur in REM sleep & lucid dreaming.
 
