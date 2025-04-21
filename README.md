@@ -1,8 +1,10 @@
-# Electrophysiological-Correlates-of-Lucid-Dreaming
+This repository contains the custom preprocessing pipeline and microsaccade detection tool developed for the study:
 
-This preprocessing pipeline combines already established methods to create an optimized workflow for artifact removal in EEG data:
- * PREP (preprocessing EEG data) : https://pyprep.readthedocs.io/en/latest/auto_examples/run_full_prep.html#sphx-glr-auto-examples-run-full-prep-py
- * ASR (Artifact Subspace Reconstruction) : https://nbara.github.io/python-meegkit/modules/meegkit.asr.html
- * SSP (Signal Space Projection) : https://mne.tools/stable/auto_tutorials/preprocessing/50_artifact_correction_ssp.html
+"Electrophysiological Correlates of Lucid Dreaming: Sensor and Source-Level Signatures"
+Çağatay Demirel, in press at The Journal of Neuroscience
 
-These methods are integrated into a unified pipeline to streamline saccadic artifact removal for further analyses.
+These scripts were created to handle artifact suppression and eye signal extraction across a diverse set of EEG and MEG recordings collected from multiple labs. The methods combine well-established preprocessing techniques with tailored logic for detecting eye movement signals—particularly those used to indicate lucidity during REM sleep.
+
+This code was publicly released to support transparency, reproducibility, and future research in the study of conscious awareness during sleep.
+
+For any questions or collaborations, feel free to reach out.
