@@ -16,3 +16,11 @@ For any questions, feel free to reach out: **cagatay.demirel.sci@gmail.com**
 ### 📄 A small note
 
 If you find these methods useful in your own research, please consider citing the associated paper: https://doi.org/10.1523/JNEUROSCI.2237-24.2025
+
+### ⚠️ Axis labeling clarification in the published paper (Figures 4B2 & 6C)
+
+In the published paper, two figures contain unit labeling inconsistencies:
+* Figure 4B2: The y-axis label for Relative power change [%]
+* Figure 6C: The y-axis label for dPLI change [%]
+
+In both cases, the plotted values reflect **unitless ratio changes (e.g., –0.5 = –50% change)**, but were mistakenly labeled with a percent sign (%) without multiplying the scale by **100**.
