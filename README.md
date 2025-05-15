@@ -17,6 +17,8 @@ For any questions, feel free to reach out: **cagatay.demirel.sci@gmail.com**
 
 If you find these methods useful in your own research, please consider citing the associated paper: https://doi.org/10.1523/JNEUROSCI.2237-24.2025
 
+---
+
 ### ⚠️ Axis labeling clarification in the published paper (Figures 4B2 & 6C)
 
 In the published paper, two figures contain unit labeling inconsistencies:
