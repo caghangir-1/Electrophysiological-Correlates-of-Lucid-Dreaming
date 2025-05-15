@@ -23,4 +23,4 @@ In the published paper, two figures contain unit labeling inconsistencies:
 * Figure 4B2: The y-axis label for Relative power change [%]
 * Figure 6C: dPLI change [%]
 
-In both cases, the plotted values reflect **unitless ratio changes (e.g., –0.5 = –50% change)**, but were mistakenly labeled with a percent sign (%) without multiplying the scale by **100**.
+In both cases, the plotted values reflect **unitless ratio changes (e.g., –0.5 = –50% change)**, but were mistakenly labeled with a percent sign **(%)** without multiplying the scale by **100**.
