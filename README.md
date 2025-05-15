@@ -19,7 +19,7 @@ If you find these methods useful in your own research, please consider citing th
 
 ---
 
-### ⚠️ Axis labeling clarification in the published paper (Figures 4B2 & 6C)
+### ⚠️ Axis labeling & unit scale clarification in the published paper (Figures 4B2 & 6C)
 
 In the published paper, two figures contain unit labeling inconsistencies:
 * Figure 4B2: The y-axis label for Relative power change [%]
