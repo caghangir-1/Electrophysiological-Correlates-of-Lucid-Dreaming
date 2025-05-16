@@ -21,8 +21,9 @@ If you find these methods useful in your own research, please consider citing th
 
 ### ⚠️ Axis labeling & unit scale clarification in the published paper (Figures 4B2 & 6C)
 
-In the published paper, two figures contain unit labeling inconsistencies:
+In the published paper, two figures apply percent labels to values expressed as ratios:
+
 * Figure 4B2: The y-axis label for Relative power change [%]
 * Figure 6C: dPLI change [%]
 
-In both cases, the plotted values reflect **unitless ratio changes (e.g., –0.5 = –50% change)**, but were mistakenly labeled with a **percent sign (%)** without multiplying the scale by **100**. These values should be interpreted as ratios rather than literal percentages.
+In both cases, the plotted values reflect unitless ratio changes **(e.g., –0.5 = –50% change)**, but were labeled with a percent sign (%) based on a semantic interpretation of percent change, rather than numerical scaling. The values were not multiplied by **100** and should be interpreted as ratios rather than literal percentages.
