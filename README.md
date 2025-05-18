@@ -26,4 +26,6 @@ In the published paper, two figures apply percent labels to values expressed as 
 * Figure 4B2: The y-axis label for Relative power change [%]
 * Figure 6C: dPLI change [%]
 
-In both cases, the plotted values reflect unitless ratio changes **(e.g., –0.5 = –50% change)**, but were labeled with a percent sign (%) based on a semantic interpretation of percent change, rather than numerical scaling. The values were not multiplied by **100** and should be interpreted as ratios rather than literal percentages. **The normalization approach used here follows the same logic as MNE’s % (percent) mode in mne.baseline.rescale()—that is, a fractional baseline correction computed as (data − baseline) / baseline, without multiplying by 100: https://mne.tools/stable/generated/mne.baseline.rescale.html**
+In both cases, the plotted values reflect unitless ratio changes **(e.g., –0.5 = –50% change)**, but were labeled with a percent sign (%) based on a semantic interpretation of percent change, rather than numerical scaling. The values were not multiplied by **100** and should be interpreted as ratios rather than literal percentages. 
+
+**The normalization approach used here follows the same logic as MNE’s % (percent) mode in mne.baseline.rescale()—that is, a fractional baseline correction computed as (data − baseline) / baseline, without multiplying by 100: https://mne.tools/stable/generated/mne.baseline.rescale.html**
