@@ -30,6 +30,8 @@ In both cases, the plotted values reflect unitless ratio changes **(e.g., –0.5
 
 **The normalization approach used here follows the same logic as MNE’s % (percent) mode in mne.baseline.rescale()—that is, a fractional baseline correction computed as (data − baseline) / baseline, without multiplying by 100: https://mne.tools/stable/generated/mne.baseline.rescale.html**
 
+---
+
 ### ⚠️Figure 4C sub-titles
 
 The subplot headers for Sample Entropy and Standardized LZc were accidentally swapped:
