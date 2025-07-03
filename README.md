@@ -29,3 +29,11 @@ In the published paper, two figures apply percent labels to values expressed as 
 In both cases, the plotted values reflect unitless ratio changes **(e.g., –0.5 = –50% change)**, but were labeled with a percent sign (%) based on a semantic interpretation of percent change, rather than numerical scaling. The values were not multiplied by **100** and should be interpreted as ratios rather than literal percentages. 
 
 **The normalization approach used here follows the same logic as MNE’s % (percent) mode in mne.baseline.rescale()—that is, a fractional baseline correction computed as (data − baseline) / baseline, without multiplying by 100: https://mne.tools/stable/generated/mne.baseline.rescale.html**
+
+### ⚠️Figure 4C sub-titles
+
+The subplot headers for Sample Entropy and Standardized LZc were accidentally swapped:
+* The leftmost panel is actually Standardized LZc, not Sample Entropy.
+* The third panel is actually Sample Entropy, not Standardized LZc.
+
+This mix-up is limited to the subplot titles only. The data, statistics, and conclusions remain accurate and unaffected.
